@@ -18,9 +18,11 @@ function App() {
   
   return (
     <div className="App">
-      <h1>IBM Hackaton</h1>
-      <p>Maxwell Hostetter, Kirby Chen, Keith Williams, Timmy Roma</p>
-
+      <h1 className="title"><img src={"./logo3.png"} width="100px" height="35px"></img> Hackathon</h1>
+      <h2 className="team">TEAM B</h2>
+      <p className="names">Maxwell Hostetter, Kirby Chen, Keith Williams, Timmy Roma</p>
+      <br></br>
+      <br></br>
       <input type="file" name="file" onChange={handleChange}/>
       {isFilePicked ? (
         <div>
@@ -29,10 +31,9 @@ function App() {
           <p>File Size: {selectedFile.size}</p>
         </div>  
         
-      ): (<p>Please Select a File</p>)}
-
+      ): (<p className="file">Please Select a File</p>)}
       <div>
-        <button onClick={handleSubmit}>Submit</button>
+        <button className="button" onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   );

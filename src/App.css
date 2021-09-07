@@ -1,3 +1,15 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  background-image: url("background2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +47,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  font-family: monospace;
+  font-size: 55px;
+  text-shadow: -2px -1px 0 rgb(43, 46, 46);
+  /* color: rgb(43, 46, 46); */
+  color: rgb(53, 92, 165);
+}
+
+.team {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 75px;
+  text-shadow: -2px -1px 0 midnightblue;
+  color: rgb(148, 147, 147);
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+
+.names {
+  font-family: cursive;
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+}
+
+.button {
+  border: 3px ridge rgb(142, 139, 139);
+  font-size: 25px;
+  border-radius: 10px;
+  /* color: rgb(58, 96, 167);
+  text-shadow: -1px -1px 0 midnightblue; */
+
+  color: rgb(69, 67, 67);
+  text-shadow: -1px -1px 0 cornflowerblue;
+  background-color: rgb(210, 209, 209);
+
+  /* text-shadow: -1px -1px 0 midnightblue;
+  color: rgb(69, 67, 67);
+  background-color: cornflowerblue; */
+}
+
+.button2 {
+  border: 3px ridge silver;
+  font-size: 25px;
+  border-radius: 15px;
+  padding-right: -20px;
+  padding-left: 20px;
+}
+
+.file {
+    font-size: 30px;
+    color: rgb(69, 67, 67);
+    text-shadow: -1px -1px 0 cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
