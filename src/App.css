@@ -52,15 +52,16 @@ body {
 .title {
   font-family: monospace;
   font-size: 55px;
-  text-shadow: -2px -1px 0 rgb(43, 46, 46);
+  text-shadow: -2px -1px 2px rgb(43, 46, 46);
   /* color: rgb(43, 46, 46); */
-  color: rgb(53, 92, 165);
+  /* color: rgb(53, 92, 165); */
+  color: rgb(39, 39, 82);
 }
 
 .team {
   font-family: 'Times New Roman', Times, serif;
   font-size: 75px;
-  text-shadow: -2px -2px 0 black;
+  text-shadow: -3px -2px 2px black;
   color: rgb(211, 208, 208);
   margin-top: -5px;
   margin-bottom: -10px;
@@ -70,17 +71,19 @@ body {
   font-family: cursive;
   font-size: 20px;
   color: rgb(62, 61, 61);
+  text-shadow: -2px -1px 1px rgb(211, 208, 208);
 }
 
 .button {
   border: 3px ridge rgb(142, 139, 139);
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 10px;
   /* color: rgb(58, 96, 167);
   text-shadow: -1px -1px 0 midnightblue; */
 
-  color: rgb(69, 67, 67);
-  text-shadow: -1px -1px 0 black;
+  /* color: rgb(69, 67, 67); */
+  color: rgb(39, 39, 82);
+  text-shadow: -1px -1px 1px black;
   background-color: rgb(210, 209, 209);
 
   /* text-shadow: -1px -1px 0 midnightblue;
@@ -98,8 +101,8 @@ body {
 
 .file {
     font-size: 30px;
-    color: dimgray;
-    text-shadow: -1px -1px 0 black;
+    color: rgb(39, 39, 82);
+    text-shadow: -1px -1px 1px black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 

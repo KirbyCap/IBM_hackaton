@@ -18,7 +18,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1 className="title"><img src={"./logo3.png"} width="100px" height="35px"></img> Hackathon</h1>
+      <h1 className="title"><img src={"./logo4.png"} width="100px" height="35px"></img> Hackathon</h1>
       <div className="border">
       <h2 className="team">TEAM B</h2>
       <p className="names">Maxwell Hostetter, Kirby Chen, Keith Williams, Timmy Roma</p>
