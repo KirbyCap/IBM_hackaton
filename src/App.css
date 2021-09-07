@@ -60,8 +60,8 @@ body {
 .team {
   font-family: 'Times New Roman', Times, serif;
   font-size: 75px;
-  text-shadow: -2px -1px 0 midnightblue;
-  color: rgb(148, 147, 147);
+  text-shadow: -2px -1px 0 black;
+  color: rgb(211, 208, 208);
   margin-top: -5px;
   margin-bottom: -10px;
 }
@@ -69,7 +69,7 @@ body {
 .names {
   font-family: cursive;
   font-size: 20px;
-  color: rgb(80, 80, 80);
+  color: rgb(62, 61, 61);
 }
 
 .button {
@@ -98,7 +98,15 @@ body {
 
 .file {
     font-size: 30px;
-    color: rgb(69, 67, 67);
+    color: dimgray;
     text-shadow: -1px -1px 0 cornflowerblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.border {
+  border: solid black;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: rgb(136, 170, 211);
+  border-radius: 15px;
 }
